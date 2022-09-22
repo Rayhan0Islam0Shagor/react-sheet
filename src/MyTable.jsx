@@ -28,7 +28,7 @@ export default function MyTable({ data }) {
           <TableRow>
             {data &&
               data.length > 0 &&
-              Object.entries(data[0]).map((key, value) => {
+              Object.entries(data[87]).map((key, value) => {
                 return (
                   <TableCell
                     key={key}
@@ -45,7 +45,7 @@ export default function MyTable({ data }) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.map((row) => (
+          {data.slice(80, 90).map((row) => (
             <TableRow
               key={row.name}
               sx={{ "&:last-child td, &:last-child th": { border: 0 } }}

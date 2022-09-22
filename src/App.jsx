@@ -5,7 +5,7 @@ import data from "./data.json";
 import MyTable from "./MyTable";
 
 function App() {
-  const [myData, setMyData] = useState(ourData);
+  const [myData, setMyData] = useState(data);
 
   return (
     <div className="App">
